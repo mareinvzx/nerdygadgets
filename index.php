@@ -1,7 +1,5 @@
 <?php
-include_once __DIR__."/shoppingCartView.php";
 include __DIR__ . "/header.php";
-
 ?>
 <div class="IndexStyle">
     <div class="col-11">
