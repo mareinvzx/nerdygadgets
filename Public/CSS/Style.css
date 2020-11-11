@@ -74,6 +74,23 @@ ul#ul-class-navigation li {
     text-decoration: none;
     text-decoration-color: currentcolor;
 }
+ul#ul-class-login {
+    right: 20px;
+    top: 20px;
+    z-index: 69;
+    line-height: 20px;
+    position: absolute;
+}
+ul#ul-class-login li {
+    color: white;
+    display: inline;
+    font-family: pt-sans, sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    text-decoration-color: currentcolor;
+    /* padding: 5px;
+    border: 1px solid  rgb(36, 41, 143); */
+}
 #Header {
     position: fixed;
     top:0;
@@ -472,4 +489,15 @@ ul#ul-class-price li {
     background: rgb(36, 41, 143);
     border: 1px rgb(98, 158, 255) solid;
     color: #fff;
+}
+.loginFrame {
+    width: 100%;
+    padding-top: 10%;
+    height: 100%;
+}
+.loginArea {
+    margin: auto;
+    width: 40%;
+    left: 30%;
+    top: 10px;
 }

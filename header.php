@@ -75,12 +75,18 @@ include "connect.php";
                 </li>
             </ul>
         </div>
+        <ul id="ul-class-login">
+            <li>
+                <a href="login.php" class="HrefDecoration"><i class="fas fa-sign-in-alt" style="color:#676EFF;"></i> Login</a>
+            </li>
+        </ul>
         <ul id="ul-class-navigation">
             <li>
                 <a href="browse.php" class="HrefDecoration"><i class="fas fa-search" style="color:#676EFF;"></i> Zoeken</a>
             </li>
         </ul>
     </div>
+    
     <div class="row" id="Content">
         <div class="col-12">
             <div id="SubContent">
