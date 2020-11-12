@@ -20,8 +20,10 @@ if(isset($_POST["email"]) && isset($_POST["password"])) {
             <input type="email" name="email" placeholder="naam@voorbeeld.com" required>
             <input type="password" name="password" placeholder="Wachtwoord" required>
             <input type="submit" value="Inloggen"><br><br>
-            <a href="registreer.php"> Hebt u nog geen account? Registreer dan nu</a>
+
+                <a id="regist" href="registreer.php"> Hebt u nog geen account? Registreer dan nu</a>
             </form>
         </div>
+
     </div>
 </body>
