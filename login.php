@@ -21,7 +21,16 @@ if(isset($_POST["email"]) && isset($_POST["password"])) {
             <input type="password" name="password" placeholder="Wachtwoord" required>
             <input type="submit" value="Inloggen"><br><br>
 
+
                 <a id="regist" href="registreer.php"> Hebt u nog geen account? Registreer dan nu</a>
+
+            <a href="registreer.php"> Hebt u nog geen account? Registreer dan nu</a>
+            <div class="errorMessage">
+            <?php function showMessage($text) {
+                echo $text;
+            }?>
+            </div>
+
             </form>
         </div>
 
