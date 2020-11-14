@@ -1,6 +1,7 @@
 <?php
 session_start();
 include "connect.php";
+include "login.php";
 ?>
 <!DOCTYPE html>
 <html lang="en" style="background-color: rgb(35, 35, 47);">
@@ -15,7 +16,9 @@ include "connect.php";
         @font-face {
             font-family: MmrText;
             src: url(/Public/fonts/mmrtext.ttf);
+
         }
+
     </style>
     <meta charset="ISO-8859-1">
     <title>NerdyGadgets</title>
@@ -77,7 +80,7 @@ include "connect.php";
         </div>
         <ul id="ul-class-login">
             <li>
-                <a href="login.php" class="HrefDecoration"><i class="fas fa-sign-in-alt" style="color:#676EFF;"></i> Login</a>
+                <button class="openbtn" onclick="openForm()">Inloggen</button>
             </li>
         </ul>
         <ul id="ul-class-navigation">
@@ -86,7 +89,7 @@ include "connect.php";
             </li>
         </ul>
     </div>
-    
+
     <div class="row" id="Content">
         <div class="col-12">
             <div id="SubContent">

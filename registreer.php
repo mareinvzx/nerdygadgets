@@ -23,7 +23,7 @@ if(isset($_POST["email"]) && isset($_POST["password"])) {
                 <input type="password" name="password" placeholder="Wachtwoord" required>
                 <input type="password" name="matchingpassword" placeholder="Bevestig wachtwoord" required>
                 <input type="submit" value="Registreer"><br><br>
-                <a href="login.php"> Hebt u al een account? Log dan nu in</a>
+                <a href="oldlogin.php"> Hebt u al een account? Log dan nu in</a>
             </form>
         </div>
     </div>
