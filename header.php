@@ -80,7 +80,7 @@ include "login.php";
         </div>
         <ul id="ul-class-login">
             <li>
-                <button class="openbtn" onclick="openForm()">Inloggen</button>
+                <button onclick="openForm()">Inloggen</button>
             </li>
         </ul>
         <ul id="ul-class-navigation">

@@ -1,6 +1,6 @@
 body{
     background: #2d7185;
-    font-family: HelveticaNow,Helvetica,sans-serif;;
+    font-family: HelveticaNow,Helvetica,sans-serif;
 }
 .wrap{
 
@@ -164,4 +164,9 @@ i{
     margin-top: 200px;
     position: center;
     bottom: 30px;
+}
+
+.login_header{
+    margin-top: 200px;
+    top: 20px;
 }

@@ -76,13 +76,13 @@ ul#ul-class-navigation li {
 }
 ul#ul-class-login {
     right: 20px;
-    top: 20px;
+    top: 50px;
     z-index: 69;
-    line-height: 20px;
+    line-height: 60px;
     position: absolute;
 }
 ul#ul-class-login li {
-    color: white;
+    color: red;
     display: inline;
     font-family: pt-sans, sans-serif;
     font-size: 20px;

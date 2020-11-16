@@ -1,4 +1,3 @@
-
 <html>
 <head>
     <title> Overlay Signup form</title>
@@ -21,7 +20,7 @@
             <a href="#" class="vergeten">Wachtwoord vergeten?</a>
             <hr class="lijn">
             <h2>Heb je nog geen Nerdygadgets-account?</h2>
-            <input type="button" value="Registreer dan nu" class="regi">
+            <input type="button" onclick="window.location.href='registreer.php'" value="Registreer dan nu" class="regi">
         </form>
     </div>
 </div>
@@ -36,3 +35,4 @@
 </script>
 </body>
 </html>
+
